@@ -35,10 +35,15 @@ button {
     top: calc(50% - 0.5rem);
     width: 20px;
     height: 1rem;
+    border: none;
     background-color: transparent;
     background-image: url(../images/menu.png);
     background-size: contain;
     background-repeat: no-repeat;
+}
+button:hover {
+    cursor: pointer;
+    transform: scale(2.3);
 }
 
 /*MAIN*/
